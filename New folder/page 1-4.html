@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="./scss/bootstrap.min.css">
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+
+<body style="background: #F9FAFE;">
+    <header>
+        <nav class="navbar shadow navbar-expand fixed-top bg-white navbar-dark justify-content-end">
+            <!-- Brand -->
+
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item ml-4">
+                    <a class="nav-link text-dark" href="#">Services</a>
+                </li>
+                <li class="nav-item ml-4">
+                    <a class="nav-link text-dark" href="#">Help</a>
+
+
+                    <!-- Dropdown -->
+
+            </ul>
+            <a class="btn btn-light size ml-4">Dashboard</a>
+            <a class="btn btn-primary size ml-4 text-light">make new order</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="col-12 mt-3 pt-5  justify-content-around d-flex">
+            <div class="form-group form-check">
+                <input type="radio" class="mt-5" aria-label="Radio button for following text input">
+                <label class="form-check-label" for="exampleCheck1">Order details</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="radio" class="mt-5" aria-label="Radio button for following text input">
+                <label class="form-check-label" for="exampleCheck1">Order safety</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="radio" class="mt-5" aria-label="Radio button for following text input">
+                <label class="form-check-label" for="exampleCheck1">Summary</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="radio" class="mt-5" aria-label="Radio button for following text input">
+                <label class="form-check-label" for="exampleCheck1">Payment</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="radio" class="mt-5" aria-label="Radio button for following text input">
+                <label class="form-check-label" for="exampleCheck1">confirmation</label>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container size shadow bg-white mb-5">
+        <!-- <div class/="row"> -->
+
+        <div class="col-12 mt-3">
+            <!-- <div class="ml-4"> -->
+                <h5 class="pt-5">SUMMARY</h5>
+                <h6>Shipment details</h6>
+                <div class="col-12 pl-0">
+                    <table class="table table-secondary">
+                        <thead>
+                           
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>QUANTITY</strong></th>
+                                <td><strong>TYPES</strong></th>
+                                <td><strong>WEIGHT</strong></th>
+                                <td><strong>DIMENTION</strong></th>
+                                <td><strong>CONTENT</strong></th>
+                                <td><strong>VALUE</strong></th>
+
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>ENVELOPE</td>
+                                <td>0.KG</td>
+                                <td>15+11CM</td>
+                                <td>POPERS</td>
+                                <td>$5.00</td>
+
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>ENVELOPE</td>
+                                <td>0.KG</td>
+                                <td>15+11CM</td>
+                                <td>POPERS</td>
+                                <td>$5.00</td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+                <div class="col-12 d-flex justify-content-between mt-3">
+                    <a href="#">Do you have a discount code?
+                    </a>
+                    <p>Total price(with vat)<a href="#">$43.25</a></p>
+                </div>
+                <hr>
+                <div class="row d-flex pl-3">
+                    <div class="col-md-2 pl-0">
+                        <div class="card mt-3 border border-primary shadow">
+                            <div class="card-body">
+                                <h6 class="card-subtitle text-dark mt-2 size text-center">Credit card</h6>
+                                <h4 class="mt-2 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 4h-20c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2v-12c0-1.104-.896-2-2-2zm0 13.5c0 .276-.224.5-.5.5h-19c-.276 0-.5-.224-.5-.5v-6.5h20v6.5zm0-9.5h-20v-1.5c0-.276.224-.5.5-.5h19c.276 0 .5.224.5.5v1.5zm-9 6h-9v-1h9v1zm-3 2h-6v-1h6v1zm10-2h-3v-1h3v1z"/></svg>
+                                </h4>
+                                <!-- <div class=" form-check  justify-content-end">
+
+                                    <input class="form-check-input " type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1"></label>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 pl-0">
+                        <div class="card mt-3 border shadow-sm ">
+                            <div class="card-body">
+                                <h6 class="card-subtitle text-dark size mt-2 text-center">Paypal</h6>
+                                <h4 class="mt-2 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 4h-20c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2v-12c0-1.104-.896-2-2-2zm0 13.5c0 .276-.224.5-.5.5h-19c-.276 0-.5-.224-.5-.5v-11c0-.276.224-.5.5-.5h19c.276 0 .5.224.5.5v11zm-6.167-6.246c0 .179-.022.361-.056.542-.282 1.473-1.249 1.982-2.483 1.982h-.191c-.151 0-.279.111-.303.263l-.268 1.697c-.023.151-.151.262-.302.262h-.912c-.13 0-.229-.116-.209-.244l.462-2.96.021-.019h.718c1.745 0 2.836-.873 3.158-2.523.27.272.365.626.365 1zm-4.738 1.417c.039-.275.153-.392.462-.393l.753-.001c1.525 0 2.399-.697 2.674-2.13.267-1.378-.701-2.147-2.01-2.147h-2.448c-.172 0-.319.127-.346.3-.768 4.945-.99 6.202-1.013 6.586-.007.121.09.224.212.224h1.33l.386-2.439z"/></svg></h4>
+                                <!-- <div class=" form-check  justify-content-end">
+
+                                    <input class="form-check-input " type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1"></label>
+                                </div> -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-2 pl-0">
+                        <div class="card mt-3 border shadow-sm">
+                            <div class="card-body">
+                                <h6 class="card-subtitle text-dark size mt-2 text-center">Bank transfer</h6>
+                                <h4 class="mt-2 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 21h-4v-11h4v11zm7-11h-4v11h4v-11zm7 0h-4v11h4v-11zm2 12h-22v2h22v-2zm-23-13h24l-12-9-12 9z"/></svg>  </h4>
+                                <!-- <div class=" form-check  justify-content-end">
+
+                                    <input class="form-check-input " type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1"></label>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                    <div class="col-5 mt-3 pl-0">
+                        <label for="inputEmail" class="visually-hidden">CARDHOLDER NAME</label>
+                        <input type="Email" class="form-control" id="inputEmail"
+                            placeholder="">
+                    </div>
+                    <div class="col-5 mt-3 mb-3 pl-0">
+                        <label for="inputEmail" class="visually-hidden">CREIT CARD NUMBER</label>
+                        <input type="Email" class="form-control" id="inputEmail"
+                            placeholder="">
+                    </div>
+                    
+                    
+                
+                        EXPIRE DATE
+                        <div class="col-5 input-group mb-5 pb-5 pl-0">
+                            <input type="text" class="form-control" placeholder="04" aria-label="Username">
+                            <span class="input-group-text">/</span>
+                            <input type="text" class="form-control" placeholder="2021" aria-label="Server">
+                            <!-- <div class="col-6 ml-5"> -->
+                                <input type="text" class="form-control pl-2" placeholder="2021" aria-label="Server">
+                            </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <nav class="navbar navbar-expand shadow fixed-bottom bg-white justify-content-between navbar-dark">
+            <!-- Brand -->
+
+
+            <!-- Links -->
+       
+            <div class="flex-row d-flex">
+                <div>
+                <a href="./page 1-3.html" class="btn btn-light size mt-2">BACK</a>
+            </div>
+                    <div class=" ml-2">
+                        <h7>phone number</h7>
+                        <h6 class="size">0788817154</h6>
+                    </div>
+
+
+
+                    <!-- Dropdown -->
+
+            </div>
+            <div class="flex-row d-flex">
+            <div>
+                <h7>From</h7>
+                <h6 class="size"> Belguim
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#007bff" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                </h6>
+            </div>
+         
+            <div class=" ml-4">
+                <h7 class="ml-4">To</h7>
+                <h6 class="size"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#007bff" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+               
+                    bulgaria</h6>
+            </div>
+        </div>
+           
+        <div class="flex-row d-flex">
+                <div class=" mr-2">
+                    <h7>phone number</h7>
+                    <h6 class="size">0788817154</h6>
+                </div>
+
+
+
+                <!-- Dropdown -->
+
+                <div>
+            <a class="btn btn-primary size mt-2">CONTENUE</a>
+        </div>
+        </div>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
